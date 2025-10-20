@@ -1,0 +1,35 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .main-header {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .brand-link {
+    background: linear-gradient(90deg, #ff7f30, #ffb347);
+    color: #fff !important;
+  }
+  
+  .nav-sidebar .nav-link.active {
+    background-color: #ff7f30 !important;
+    color: #fff;
+  }
+  
+  .nav-sidebar .nav-link:hover {
+    background-color: rgba(255, 127, 48, 0.2);
+    color: #ff7f30;
+  }
+  
+  .content-wrapper {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .main-footer {
+    background: #fff;
+    color: #555;
+    border-top: 1px solid #dee2e6;
+    padding: 10px;
+  }
+  
