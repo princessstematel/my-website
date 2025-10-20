@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: #0A0A0A;
+  scroll-behavior: smooth;
+}
+
+header.navbar {
+  background-color: #0A0A0A;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo span {
+  color: #FF7A00;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #FF7A00;
+}
+
+.hero {
+  background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 0.6)), url('https://dilesin.com/app/img/program/offline-bootcamp(1).png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content span {
+  color: #FF7A00;
+}
+
+.btn-primary {
+  background-color: #E60023;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #FF7A00;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+h2 {
+  text-align: center;
+  color: #E60023;
+  margin-bottom: 40px;
+}
+
+.program-grid, .mentor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.program-card, .mentor-card {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.program-card:hover, .mentor-card:hover {
+  transform: translateY(-5px);
+}
+
+.mentor-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.testi-slider {
+  position: relative;
+  text-align: center;
+}
+
+.testi-item {
+  display: none;
+  font-style: italic;
+  color: #333;
+}
+
+.testi-item.active {
+  display: block;
+}
+
+footer {
+  background-color: #0A0A0A;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.logo img {
+  height: 45px;
+  width: auto;
+  vertical-align: middle;
+}
