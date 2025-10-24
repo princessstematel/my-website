@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="{{ asset('images/logo.png') }}">
+  <link rel="icon" type="image/png" href="{{ asset('images/logo-dilesin.png') }}">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -52,7 +52,7 @@
   <!-- Sidebar -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="{{ url('/admin/dashboard') }}" class="brand-link text-center">
-      <img src="{{ asset('images/logo.png') }}" alt="Logo" class="brand-image img-circle elevation-3" style="opacity:.8">
+      <img src="{{ asset('images/logo-dilesin.png') }}" alt="Logo" class="brand-image img-circle elevation-3" style="opacity:.8">
       <span class="brand-text font-weight-light">Dilesin Admin</span>
     </a>
 
@@ -75,9 +75,9 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="{{ url('/admin/users') }}" class="nav-link {{ Request::is('admin/users') ? 'active' : '' }}">
+            <a href="{{ url('/admin/students') }}" class="nav-link {{ Request::is('admin/students') ? 'active' : '' }}">
               <i class="nav-icon fas fa-users"></i>
-              <p>Users</p>
+              <p>Data Student</p>
             </a>
           </li>
           <li class="nav-item">
